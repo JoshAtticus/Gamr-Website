@@ -1,0 +1,54 @@
+@font-face {
+  font-family: main;
+  src: url(/assets/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+ul {
+  list-style-type: none;
+  margin-top: -1px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF003D;
+  border-radius: 10px;
+  font-family: main;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FFB800;
+}
+
+.mainpage {
+  margin-top: 5vh;
+}
+
+p, h1, h2, h3, h4, h5 {
+  font-family: main;
+}
+
+input.search, input:focus.search, input:hover.search {
+  background-color: white;
+}
+
+input, input:focus, input:hover {
+  border: none;
+  outline: none;
+  stroke: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 30vw;
+  height: 4vh;
+  background-color: #333333;
+  color: white;
+}
